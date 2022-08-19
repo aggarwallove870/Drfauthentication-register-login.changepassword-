@@ -148,23 +148,10 @@ REST_FRAMEWORK = {
 #     ]
 # }
 
-# AUTH_USER_MODEL = 'appone.CustomUser'
+AUTH_USER_MODEL = 'appone.CustomUser'
 
 API_KEY= '62b99f2a-1df2-11ed-9c12-0200cd936042'
 import os
-
-# # Static files (CSS, JavaScript, Images)
-# # https://docs.djangoproject.com/en/1.11/howto/static-files/
-# PROJECT_ROOT   =   os.path.join(os.path.abspath(__file__))
-# STATIC_ROOT  =   os.path.join(PROJECT_ROOT, 'staticfiles')
-# STATIC_URL = '/static/'
-
-# # Extra lookup directories for collectstatic to find static files
-# STATICFILES_DIRS = (
-#     os.path.join(PROJECT_ROOT, 'static'),
-# )
-
-
 
 
 import dj_database_url 
