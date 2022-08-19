@@ -54,7 +54,7 @@ def register(request):
         email_get.append(get_email_id)
         from_email = settings.EMAIL_HOST_USER
         send_mail(mail_subject,message,from_email,email_get)
-        send_otp(get_mobile_no,otp)
+        # send_otp(get_mobile_no,otp)
         return HttpResponse('Please confirm your email address to complete the registration')  
     else:  
         return render(request,"index.html")

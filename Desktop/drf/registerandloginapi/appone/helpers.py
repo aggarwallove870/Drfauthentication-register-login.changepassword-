@@ -1,3 +1,4 @@
+from email import message
 from urllib import response
 import requests
 import random
@@ -10,4 +11,6 @@ def send_otp(mobile_no,otp):
     response=requests.get(url)
     return True
 
-
+# def send_email():
+#     print("email sent")
+# send_email("subject","messages","loveaggarwal179@gmail.com","loveaggarwal@snakescript.com")
