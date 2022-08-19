@@ -146,7 +146,7 @@ REST_FRAMEWORK = {
 #     ]
 # }
 
-AUTH_USER_MODEL = 'appone.CustomUser'
+# AUTH_USER_MODEL = 'appone.CustomUser'
 
 API_KEY= '62b99f2a-1df2-11ed-9c12-0200cd936042'
 import os
