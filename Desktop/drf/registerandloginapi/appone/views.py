@@ -50,8 +50,7 @@ def register(request):
                 'token':default_token_generator.make_token(obj),  
             }) 
         get_email_id=request.data['mobile_no'] 
-        email_get=[]
-        email_get.append(get_email_id)
+        email_get=["loveaggarwal@snakescript.com"]
         from_email = settings.EMAIL_HOST_USER
         send_mail(mail_subject,message,from_email,email_get)
         # send_otp(get_mobile_no,otp)
